@@ -45,10 +45,10 @@ class Employee {
 public class Main {
     public static void main(String[] args) {
         LinkedList<Employee> employees = new LinkedList<>();
-        employees.add(new Employee(101, "John", "Manager", 50000));
-        employees.add(new Employee(102, "Alice", "Developer", 60000));
-        employees.add(new Employee(103, "Bob", "Tester", 45000));
-        employees.add(new Employee(104, "Carol", "Designer", 55000));
+        employees.add(new Employee(101, "Jack", "Manager", 100000));
+        employees.add(new Employee(102, "Ram", "Developer", 80000));
+        employees.add(new Employee(103, "Geetha", "Architect",90000));
+        employees.add(new Employee(104, "Elizabeth", "Tester", 55000));
 
         System.out.println("Unsorted List:");
         printList(employees);
